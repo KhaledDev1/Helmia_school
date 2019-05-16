@@ -1,0 +1,27 @@
+@charset "UTF-8"; 
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #f8f8f8;
+    padding 0;
+}
+img {
+
+    margin-top: 50px;
+    margin-left: 200px
+}
+
+img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+display: none;}
+
+
+body.dark {
+  background-color: rgb(30,34,39);
+  color: #fff;
+}
+body.dark code[class*=language-],
+body.dark table tbody>tr:nth-child(odd)>td,
+body.dark table tbody>tr:nth-child(odd)>th {
+  background: #282c34
+}

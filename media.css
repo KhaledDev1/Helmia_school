@@ -1,0 +1,14 @@
+@charset "UTF-8"; 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f8f8;
+    margin-left: 12%;
+    margin-right: 12%;
+    padding 0;
+}
+
+img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+display: none;}
